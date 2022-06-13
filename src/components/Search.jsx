@@ -15,7 +15,7 @@ const Search = () => {
   }, [debouncedValue]);
 
   return (
-    <div className="relative sm:ml-48 md:ml-72 sm:mt-10 mt-3">
+    <div className="relative sm:ml-48 md:ml-72 sm:-mt-10 mt-3">
       <input
         type="text"
         value={text}
